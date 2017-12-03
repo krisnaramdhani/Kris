@@ -323,7 +323,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("==============[Cat_Bot]==============")
+      print("==============[C-A_Bot]==============")
       print("     Thanks for TCR and my friend")
       print("=====================================")
       print("mid -> " + prof.mid)

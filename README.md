@@ -1,4 +1,4 @@
-10 Akun BotProtect + 1 Akun Bot Satpam
+5 Akun BotProtect + 1 Akun Bot Satpam
 
 ===Bot Kris===
 

@@ -2,6 +2,9 @@
 
 
 
-git clone https://github.com/adekrisna/KRIS
+git clone https://github.com/adekrisna/Kris
+
 cd Kris
+
 python krisself.py
+

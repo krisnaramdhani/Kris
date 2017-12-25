@@ -19,7 +19,11 @@ class Poll:
   port = 443;
 
   UA = "Line/7.18.0"#"Mozilla/5.0"
-  LA = "CHROMEOS\t.1.4.5\tChrome_HP\t1"#"CHROMEOS\x091.4.13\x09Chrome_OS\x091"
+  LA = "CHROMEOS\t1.4.17\tChrome_OS\t1"#"CHROMEOS\x091.4.13\x09Chrome_OS\x091"
+  #UA = "Line/7.18.0"#"Mozilla/5.0"
+  #LA = "CHROMEOS\t.1.4.5\tChrome_HP\t1"#"CHROMEOS\x091.4.13\x09Chrome_OS\x091"
+  #UA = "Line/6.0.0 iPad4,1 9.0.2"
+  #LA = "DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0"
 
   rev = 0
 

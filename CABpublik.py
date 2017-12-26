@@ -70,6 +70,7 @@ helpMessage ="""
 ║╠☔Crot (tagall)
 ║╠☔Absen
 ║╠☔Gift
+║╠☔ranita pergi (ngeluarkan bot)
 ║╠☔Kr pergi (ngeluarkan bot)
 ║╚════════════
 ║   UNTUK PUBLIK
@@ -2303,7 +2304,7 @@ def bot(op):
 					if msg.toType == 2:
 						ginfo = cl.getGroup(msg.to)
 						try:
-							ki.leaveGroup(msg.to)
+							cl.leaveGroup(msg.to)
 							kk.leaveGroup(msg.to)
 							kc.leaveGroup(msg.to)
 						except:
@@ -2319,6 +2320,16 @@ def bot(op):
 							pass
             elif msg.text in ["Ranita bye"]:
                 if msg.from_ in admin or owner:
+					if msg.toType == 2:
+						ginfo = cl.getGroup(msg.to)
+						try:
+							cl.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nJangan Lupa Bahagia...!!!")
+							cl.leaveGroup(msg.to)
+							ki.leaveGroup(msg.to)
+						except:
+							pass
+						
+            elif msg.text in ["Kr pergi"]:
 					if msg.toType == 2:
 						ginfo = cl.getGroup(msg.to)
 						try:

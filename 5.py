@@ -1116,7 +1116,7 @@ def bot(op):
                         try:
                             kr.inviteIntoGroup(op.param1,[op.param3])
                         except:
-                            kr5.inviteIntoGroup(op.param1,[op.param3])
+                            kr4.inviteIntoGroup(op.param1,[op.param3])
         if op.type == 19:
             if op.param3 in induk or mid:
                 if op.param2 not in Bots:

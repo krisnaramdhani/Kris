@@ -4888,7 +4888,7 @@ def bot(op):
 #===============================================
         if op.type == 17:
             if op.param2 not in Bots:
-                if op.param2 in Bots:
+                if op.param2 in Bots or admin:
                     pass
             if wait["protect"] == True:
                 if wait["blacklist"][op.param2] == True:
@@ -4907,7 +4907,7 @@ def bot(op):
                             pass
         if op.type == 19:
             if op.param2 not in Bots:
-                if op.param2 in Bots:
+                if op.param2 in Bots or admin:
                     pass
                 elif wait["protect"] == True:
                     wait ["blacklist"][op.param2] = True
@@ -4915,7 +4915,7 @@ def bot(op):
                     kr1.inviteIntoGroup(op.param1,[op.param2])
         if op.type == 13:
             if op.param2 not in Bots:
-                if op.param2 in Bots:
+                if op.param2 in Bots or admin:
                     pass
                 elif wait["inviteprotect"] == True:
                     wait ["blacklist"][op.param2] = True
@@ -4934,7 +4934,7 @@ def bot(op):
                                     kr1.cancelGroupInvitation(op.param1,[op.param3])
         if op.type == 11:
             if op.param2 not in Bots:
-                if op.param2 in Bots:
+                if op.param2 in Bots or admin:
                     pass
                 elif wait["linkprotect"] == True:
                     wait ["blacklist"][op.param2] = True

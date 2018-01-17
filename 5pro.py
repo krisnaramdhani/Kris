@@ -1601,7 +1601,7 @@ def bot(op):
                     msg.contentMetadata = {'mid': Dmid}
                     kr5.sendMessage(msg)
                     random.choice(KAC).sendImageWithURL(msg.to, url123)
-					random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Owner Bots ↩↥↥↥↥↥")
+                    random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Owner Bots ↩↥↥↥↥↥")
             elif "facebook " in msg.text:
                 if msg.from_ in admin:
                     a = msg.text.replace("facebook ","")
@@ -1923,7 +1923,7 @@ def bot(op):
                             kr1.sendText(msg.to,"Share already on")
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
-				random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
             elif msg.text.lower() == 'share off':
                 if msg.from_ in admin:
                     if wait['timeline'] == False:
@@ -2697,7 +2697,7 @@ def bot(op):
             
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
-				random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
             
             elif msg.text.lower() == 'grup id':
                 if msg.from_ in owner:
@@ -2997,7 +2997,7 @@ def bot(op):
 
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
-				random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
                     
             elif "cctv off" == msg.text.lower():
                 if msg.from_ in admin:
@@ -3042,7 +3042,7 @@ def bot(op):
 
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
-				random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
                     
             elif "intip" == msg.text.lower():
                 if msg.from_ in admin:
@@ -3390,7 +3390,7 @@ def bot(op):
                     kr1.sendText(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
-				random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
             elif msg.text in ["Mycover"]:
                     h = kr1.getContact(mid)
                     cu = kr1.channel.getCover(mid)          
@@ -3653,7 +3653,7 @@ def bot(op):
                 kr1.sendText(msg.to, A)
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
-				random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
             elif "Id@en" in msg.text:
                 bahasa_awal = 'id'
                 bahasa_tujuan = 'en'
@@ -4027,7 +4027,7 @@ def bot(op):
 #==============================================================================#
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
-				random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
             elif msg.text.lower() == 'ifconfig':
                 if msg.from_ in admin:
                     botKernel = subprocess.Popen(["ifconfig"], stdout=subprocess.PIPE).communicate()[0]

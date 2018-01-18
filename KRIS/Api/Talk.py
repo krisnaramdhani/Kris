@@ -20,8 +20,8 @@ class Talk:
   host = "gd2.line.naver.jp";
   port = 443;
 
-  UA = "Line/7.18.0"#"Mozilla/5.0"
-  LA = "CHROMEOS\t1.4.17\tChrome_OS\t1"#"CHROMEOS\x091.4.13\x09Chrome_OS\x091"
+  UA = "Line/7.14.0"#"Mozilla/5.0"
+  LA = "IOSIPAD\t7.14.0\tiPhone OS\t10.12.0"
   #UA = "Line/7.18.0"#"Mozilla/5.0"
   #LA = "CHROMEOS\t.1.4.5\tChrome_HP\t1"#"CHROMEOS\x091.4.13\x09Chrome_OS\x091"
   #UA = "Line/6.0.0 iPad4,1 9.0.2"

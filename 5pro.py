@@ -2135,7 +2135,7 @@ def bot(op):
                         for var in range(0,num):
                             kr1.sendText(msg.to, wait['spam'])
 #=====================================
-            elif "Spam " in msg.text:
+            elif ".spam " in msg.text:
                 if msg.from_ in admin:
                     if msg.toType == 2:
                         bctxt = msg.text.replace("Spam ", "")

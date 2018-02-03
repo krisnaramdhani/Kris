@@ -14,46 +14,46 @@ from googletrans import Translator
 
 kr1 = KRIS.LINE()
 #kr1.login(qr=True)
-kr1.login(token="")#1
+kr1.login(token="EowmdvrIy5LUxCi00NH2.asdrlmWok4LWoIzOsXKceG.fP0BGl1eFpkRG7a8Ji5oOM7u0udPTpwmdsnqROXuXKA=")
 kr1.loginResult()
 
 kr2 = KRIS.LINE()
 #kr2.login(qr=True)
-kr2.login(token="")#2
+kr2.login(token="EoJqtmhotyoKJlx0eIKf.oCRI6Jz7Xa5p+sy2S8D2NW.jOKGS0IQ2JnZlqLfj/vJXUF0adEu9lIXPa3AxGUC84I=")
 kr2.loginResult()
 
 kr3 = KRIS.LINE()
 #kr3.login(qr=True)
-kr3.login(token="")#3
+kr3.login(token="EotKRFPdVPvl3qw8stc2.Un3grslvO9wmrLyOUTmCmG.Y1QoQVT3xDIfUrRJzoK8Mdxd6m5sPHJKY4hYU+4TFnM=")
 kr3.loginResult()
 
 kr4 = KRIS.LINE()
 #kr4.login(qr=True)
-kr4.login(token="")#4
+kr4.login(token="EogniMZlxF4FnbafIqba.BfVplifvr1r008eOYqnlEG.c46jqB7OvH+Sos/N9LmHNRqow7ZjTef4/0H77gqppq0=")
 kr4.loginResult()
 
 kr5 = KRIS.LINE()
 #kr5.login(qr=True)
-kr5.login(token="")#5
+kr5.login(token="EoSH1fOjhHbOLSaeEV58.b5uCXIfZHo2pJyLWqQil/a.g7I/JcIuhUeiOEhThhRIDNafeh7TrMg1Lfl/enYcsCA=")
 kr5.loginResult()
 
 #kr6 = KRIS.LINE()
 #kr6.login(qr=True)
-#kr6.login(token="")#satpam
+#kr6.login(token="EolCuettEKUSX9PBxFtb.ysI/ZLm5yl2D9QmawE8WIW.gTK9y9MO5C9w4o4xDiTWFMHKdBGi1KGGrky0WzHMx8U=")
 #kr6.loginResult()
 
 kr6 = kr5
 
-print "╔═════════════════════════\n║╔════════════════════════\n║╠❂➣ KRIS BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════"
+print "╔═════════════════════════\n║╔════════════════════════\n║╠❂➣ Junsan FY BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpmsg ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou94
 ╠═════════════
 ║╔════════════
 ║╠❂➣facebook
@@ -91,10 +91,10 @@ helpmsg ="""
 
 keymsg ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou94
 ╠═════════════
 ║╔════════════
 ║╠❂➣keypro
@@ -108,10 +108,10 @@ keymsg ="""
 
 helppro ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou94
 ╠═════════════
 ║╔════════════
 ║╠❂➣mode on/off
@@ -124,10 +124,10 @@ helppro ="""
 
 helpself ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou94
 ╠═════════════
 ║╔════════════
 ║╠❂➣cctv on/off (Lurking)
@@ -180,10 +180,10 @@ helpself ="""
 
 helpset ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou
 ╠═════════════
 ║╔════════════
 ║╠❂➣Gurl
@@ -217,10 +217,10 @@ helpset ="""
 
 helpgrup ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou94
 ╠═════════════
 ║╔════════════
 ║╠❂➣Link on
@@ -267,9 +267,9 @@ helpgrup ="""
 ║╠❂➣grup id
 ║╠❂➣Glist
 ║╠❂➣gcancel
-║╠❂➣Kris/. (manggil bot)
-║╠❂➣Kabur all
-║╠❂➣Kris bye
+║╠❂➣Fy. (manggil bot)
+║╠❂➣Out all
+║╠❂➣Fy bye
 ║╠❂➣cipok/crot (tagall)
 ║╠❂➣cctv on/off
 ║╠❂➣Toong/Intip
@@ -295,10 +295,10 @@ helpgrup ="""
 
 helptranslate ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou94
 ╠═════════════
 ║╔════════════
 ║╠❂➣Translate-id
@@ -327,10 +327,10 @@ helptranslate ="""
 
 helprhs ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+║ 
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ Owner : FY
+║ line://ti/p/~fackyou
 ╠═════════════
 ║╔════════════
 ║╠❂➣Dadas
@@ -382,9 +382,9 @@ Cmid = kr4.getProfile().mid
 Dmid = kr5.getProfile().mid
 mid6 = kr6.getProfile().mid
 
-Bots=[mid1,Amid,Bmid,Cmid,Dmid,"u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid1,Amid,Bmid,Cmid,Dmid]#ranita2
+Bots=[mid1,Amid,Bmid,Cmid,Dmid,"u39bcd8adff1b3ccfced8b5666bf6e2ea"]
+owner=["u39bcd8adff1b3ccfced8b5666bf6e2ea"]
+admin=["u39bcd8adff1b3ccfced8b5666bf6e2ea",mid1,Amid,Bmid,Cmid,Dmid]#ranita2
 
 wait = {
     'likeOn':False,
@@ -401,9 +401,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"""Thx for add\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆""",
+    'message':"""Thx for add""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea «««",
+    "comment":"👉ąµtolike:by»»» http://line.me/ti/p/~fackyou94",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -1568,7 +1568,7 @@ def bot(op):
             elif msg.text in ["Sp","Speed","speed"]:
                 if msg.from_ in admin:
                     start = time.time()
-                    kr1.sendText(msg.to, "❂➣Proses.....")
+                    kr1.sendText(msg.to, "➣Proses.....")
                     elapsed_time = time.time() - start
                     kr1.sendText(msg.to, "%sseconds" % (elapsed_time))
             elif msg.text.lower() == 'crash':
@@ -1962,11 +1962,11 @@ def bot(op):
                     else:md+="╠❂➣Cancel Protect:off [❌]\n╚═════════════"
                     kr1.sendText(msg.to,md)
                     msg.contentType = 13
-                    msg.contentMetadata = {'mid': "u31ef22df7f538df1d74dc7f756ef1a32"}
+                    msg.contentMetadata = {'mid': "u39bcd8adff1b3ccfced8b5666bf6e2ea"}
                     kr1.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u31ef22df7f538df1d74dc7f756ef1a32"}
+                msg.contentMetadata = {'mid': "u39bcd8adff1b3ccfced8b5666bf6e2ea"}
                 kr1.sendMessage(msg)
                 kr1.sendText(msg.to,'❂➣ Creator yang manis kalem  􀜁􀄯􏿿')
             elif msg.text.lower() == 'autoadd on':
@@ -2536,7 +2536,7 @@ def bot(op):
                             except:
                                 kr1.sendText(msg.to,"Error")
             
-#            elif "Tajong " in msg.text:
+#            elif "Siri " in msg.text:
 #                if msg.from_ in admin:
 #                    nk0 = msg.text.replace("Tajong ","")
 #                    nk1 = nk0.lstrip()
@@ -2794,13 +2794,13 @@ def bot(op):
                   kr1.sendText(msg.to,"The stafflist is empty")
               else:
                   kr1.sendText(msg.to,"Tunggu...")
-                  mc = "╔═════════════\n║Admin ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰\n╠═════════════\n"
+                  mc = "╔═════════════\n║Admin ✰ FY bot ✰\n╠═════════════\n"
                   for mi_d in admin:
-                      mc += "║••>" +kr1.getContact(mi_d).displayName + "\n╠═════════════\n"
+                      mc += "║🐯>" +kr1.getContact(mi_d).displayName + "\n╠═════════════\n"
                   kr1.sendText(msg.to,mc)
                   print "[Command]Stafflist executed"
                     
-            elif msg.text in ["Asup","asup"]: #Panggil Semua Bot
+            elif msg.text in ["Fy in","asup"]: #Panggil Semua Bot
                 if msg.from_ in owner:
                     G = kr1.getGroup(msg.to)
                     ginfo = kr1.getGroup(msg.to)
@@ -2851,7 +2851,7 @@ def bot(op):
                     kr5.sendText(msg.to,"Hallo...!!! " + str(ginfo.name) + "\n\nSemoga Selalu Bahagia...!!!")
                     print "Semua Sudah Lengkap"
                     
-            elif "Kabur all" in msg.text:#keluar semua bots
+            elif "Out all" in msg.text:#keluar semua bots
                 if msg.from_ in owner:
                     if msg.toType == 2:
                         ginfo = kr1.getGroup(msg.to)
@@ -2868,7 +2868,7 @@ def bot(op):
                             kr1.leaveGroup(msg.to)
                         except:
                             pass
-            elif "Kris bye" in msg.text:#keluar bot kecuali bot induk
+            elif "Fy bye" in msg.text:#keluar bot kecuali bot induk
                 if msg.from_ in owner:
                     if msg.toType == 2:
                         ginfo = kr1.getGroup(msg.to)
